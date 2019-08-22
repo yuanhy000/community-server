@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+    width: 48%;
+    margin: 10px 10px 0 0;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.title-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    font-size: 16px;
+    color: #777777;
+    font-weight: bold;
+}
+
+.base-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    font-size: 16px;
+    color: #777777;
+}
+
+.info-item label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.left-container span {
+    color: #333;
+    font-size: 14px;
+}
+
+.right-container span {
+    color: #333;
+    font-size: 14px;
+    width: 60px;
+
+}
+
+.position-container {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.position-container a {
+    text-decoration: none;
+    color: #777;
+    margin-right: 10px;
+}
+
+.position-container span {
+    text-decoration: none;
+    color: #777;
+    margin-left: 10px;
+}
+
+.position-container img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.operation-container {
+    background-color: #fff;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.operation-content {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+}
+
+.operation-item a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #999;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+    width: 48%;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    height: 80%;
+}
