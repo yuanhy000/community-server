@@ -1,6 +1,6 @@
-accessid = 'LTAIC5QjlnsVbLA4';
-accesskey = 'wiRIdhRvXwC2ZEasZQOLgM88S3X7sn';
-host = 'https://community-storage.oss-cn-hangzhou.aliyuncs.com/';
+accessid = '';
+accesskey = '';
+host = '';
 
 g_dirname = ''
 g_object_name = ''
